@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+    <title>Assignment-6</title>
+</head>
+<body>
+    <h1 style="font-size: 50px; text-decoration: underline;">Assignment-6</h1>
+    <div class="cal" id="date">
+        <h2>Todays Date: </h2>
+        <p id="showDate"></p>
+    </div>
+    <div class="cal" id="day">
+        <h2>Todays Day: </h2>
+        <p id="showDay"></p>
+    </div>
+    <div id="name">
+        <form action="" id="nameForm" autocomplete="off">
+            <fieldset style="background-color: azure;">
+                <legend><strong>Personal Info</strong></legend>
+                <div class="nameDiv" id="firstName">
+                    <label for="nameInput">First Name:</label>
+                    <input type="text" id="fnInput" placeholder="Please Enter Your Name &colon; &rpar;">
+                </div> 
+                <div class="nameDiv" id="lastName">
+                    <label for="nameInput">Last Name:</label>
+                    <input type="text" id="lnInput" placeholder="Please Enter Your Name &colon; &rpar;">   
+                </div> 
+                <button type="button" onclick="getUserInput()">Submit</button>   
+            </fieldset>
+        </form>
+        <p id="nameText"></p>
+    </div>
+    <div id="math">
+        <form action="" id="mathForm" autocomplete="off">
+            <fieldset style="background-color: azure;">
+                <legend><strong>Calculate</strong></legend>
+                <div class="mathDiv" id="firstNum">
+                    <label for="numInput">First Number:</label>
+                    <input type="text" id="fnumInput" placeholder="Please Enter Your Name &colon; &rpar;">
+                </div> 
+                <div class="mathDiv" id="secondNum">
+                    <label for="numInput">Second Number:</label>
+                    <input type="text" id="snumInput" placeholder="Please Enter Your Name &colon; &rpar;">   
+                </div> 
+                <div class="mathDiv" id="operationDiv">
+                    <label for="operation">Select Operation:</label>
+                    <input type="text" id="operation" name="operation" list="operation-list">
+                        <datalist id="operation-list">
+                            <option value="addition"></option>
+                            <option value="substract"></option>
+                            <option value="multiply"></option>
+                            <option value="division"></option>
+                        </datalist>           
+                </div>
+                <button type="button" onclick="calculate()">Submit</button>   
+            </fieldset>
+        </form>
+        <p id="numText"></p>
+    </div>
+
+</body>
+</html>

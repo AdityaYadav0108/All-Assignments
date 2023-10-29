@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="t1.js"></script>
+    <script defer src="t2.js"></script>
+    <script defer src="t3.js"></script>
+    <script defer src="t4.js"></script>
+    <script defer src="t5.js"></script>
+    <title>
+      Document
+    </title>
+  </head>
+  
+  <body>
+    <div id="container">
+      <h1>
+        Assignment-9
+      </h1>
+      <div class="tasks" id="task2">
+        <div class="taskDesc">
+          <h2>
+            Task-1:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Program to return sum of all Arguments passed to a Function.
+          </p>
+        </div>
+        <form autocomplete="off" action="" class="inputForm" id="inputForm1" onsubmit="init1()">
+          <fieldset>
+            <legend>
+              <strong>
+                Number of Inputs
+              </strong>
+            </legend>
+            <label for="t1input">
+              Enter Here:
+            </label>
+            <input type="text" id="t1input" placeholder="Please enter a number">
+            <button type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p class="display" id="t1display"></p>
+      </div>
+      <div class="tasks" id="task2">
+        <div class="taskDesc">
+          <h2>
+            Task-2:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Program to return more than one value from a Function.
+          </p>
+        </div>
+        <form autocomplete="off" action="" class="inputForm" onsubmit="init2(event)">
+          <fieldset>
+              <legend><strong>Enter Details</strong></legend>
+              <div class="labelDiv">
+                  <label for="t2value1">Value-1:</label>
+                  <input type="text" id="t2value1" placeholder="Please enter a number">
+              </div>
+              <div class="labelDiv">
+                  <label for="t2value2">Value-2:</label>
+                  <input type="text" id="t2value2" placeholder="Please enter a number">
+              </div>
+              <button id="submitBtn2" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p class="display" id="t2display"></p>
+      </div>
+      <div class="tasks" id="task3">
+        <div class="taskDesc">
+          <h2>
+            Task-3:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a code to return entire function definition and display it.
+          </p>
+        </div>
+        <form autocomplete="off" action="" class="inputForm" id="inputForm3" onsubmit="init3()">
+          <fieldset>
+            <legend>
+              <strong>
+                Select Function
+              </strong>
+            </legend>
+            <label for="t3input">
+              Enter Here:
+            </label>
+            <input type="text" id="t3input" list="funcList" placeholder="Please Select a Function">
+            <datalist id="funcList">
+              <option value="addition"></option>
+              <option value="substraction"></option>
+              <option value="multiplication"></option>
+              <option value="division"></option>
+            </datalist>
+            <button id="submitBtn3" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p class="display" id="t3display"></p>
+     </div>
+      <div class="tasks" id="task4">
+        <div class="taskDesc">
+          <h2>
+            Task-4:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Javascript program to create a new string adding "New!" in front
+            of a given String. If the string begins with "New!" already then return
+            the original String.
+          </p>
+        </div>
+        <form autocomplete="off" action="" class="inputForm" id="stringForm" onsubmit="init4()">
+          <fieldset>
+              <legend><strong>String Input</strong></legend>
+              <label for="t4input">Enter The String:</label>
+              <input type="text" name="" id="t4input" placeholder="Please Enter a String">
+              <button id="submitBtn4" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p id="t4display" class="display"></p>
+      </div>
+      <div class="tasks">
+        <div class="taskDesc">
+          <h2>
+            Task-5:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Javascript program to create a new string from a string taking
+            first 3 chracters and the last 3 characters of a string and add them together.
+            The string length must be 3 or more.. If Not, The original string is returned.
+          </p>
+        </div>
+        <form autocomplete="off" action="" class="inputForm" id="stringForm2" onsubmit="init5()">
+          <fieldset>
+              <legend><strong>String Input</strong></legend>
+              <label for="t5input">Enter The String:</label>
+              <input type="text" name="" id="t5input" placeholder="Please Enter a String">
+              <button id="submitBtn5" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p id="t5display" class="display"></p>
+      </div>
+    </div>
+  </body>
+
+</html>

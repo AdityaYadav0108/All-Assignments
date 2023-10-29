@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/object.css">
+    <script defer src="js/createObject.js"></script>
+    <title>Create An Object</title>
+</head>
+<body>
+    <div id="container">
+        <div id="displayInfo">
+            <div class="display" id="name">
+                <h2 id="nameHead">Name:</h2>
+                <p id="showName"></p>
+            </div>
+            <div class="display" id="age">
+                <h2 id="ageHead">Age:</h2>
+                <p id="showAge"></p>
+            </div>
+            <div class="display" id="address">
+                <h2 id="addHead">Address:</h2>
+                <p id="showAdd"></p>
+            </div>
+            <div class="display" id="hobby">
+                <h2 id="hobbyHead">Hobby:</h2>
+                <p id="showHobby"></p>
+            </div>
+        </div>
+        <form action="" id="inputForm" autocomplete="off">
+            <fieldset style="background-color: azure;">
+                <legend><strong>Personal Info</strong></legend>
+                <div id="nameDiv">
+                    <label for="nameInput" class="mainLabels">Name:</label>
+                    <input type="text" id="nameInput">
+                </div>
+                <div id="ageDiv">
+                    <label for="ageInput" class="mainLabels">Age:</label>
+                    <input type="text" id="ageInput">
+                </div>
+                <div id="addDiv" aria-labelledby="addDivLabel">
+                    <label id="addDivLabel" class="mainLabels" >Address: 
+                        <div id="addDiv2">
+                            <div class="addDetails" >
+                                <label for="cityInput" class="secLabel">
+                                    City:
+                                </label>
+                                <input type="text" id="cityInput" aria-labelledby="addDivLabel">
+                            </div>
+    
+                            <div class="addDetails" >
+                                <label for="stateInput" class="secLabel">
+                                    State:
+                                </label>
+                                <input type="text" id="stateInput" aria-labelledby="addDivLabel">
+                            </div>
+    
+                            <div class="addDetails" >
+                                <label for="pinInput" class="secLabel">
+                                    Pincode:
+                                </label>
+                                <input type="text" id="pinInput" aria-labelledby="addDivLabel">
+                            </div>
+                        </div>
+                    </label>
+                </div>
+                <div id="hobbyDiv">
+                    <label for="hobbyInput" class="mainLabels">Hobby:</label>
+                    <input type="text" id="hobbyInput">
+                </div>
+
+                <button id="initButton" onclick="init()">Submit</button>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html> 

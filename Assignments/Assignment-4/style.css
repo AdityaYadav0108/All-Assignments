@@ -1,0 +1,248 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+#container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background: beige;
+    align-items: center;
+    gap: 20px;
+}
+nav{
+    width: 97%;
+    margin-top: 3px;
+    padding:20px 10px 20px 10px;
+    background:#8d99ae;
+    color: white;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+    justify-content: end;
+    padding-right: 60px;
+}
+nav ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#cover{
+    width: 98.4%;
+    position:relative;
+}
+#cover img{
+    width: 100%;
+}
+#assignment{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+#team{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+}
+#team img{
+    width:20%
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: DelaGothicOne;
+}
+#about{
+    width: 98.4%;
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+#aboutprojects{
+    width:45%; 
+    background-color:grey;
+    color: white;
+    text-align: justify;
+    border-radius: 4px;
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:45%;
+}
+.project{
+    position: relative;
+}
+.project img{
+    width:100%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.pheading{
+    position:absolute;
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+    margin: 10px;
+    font-family: DelaGothicOne;
+    align-self: center;
+}
+#project-desc{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: RobotoMono;
+}
+#tech{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: space-evenly;
+}
+.card{
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    background: #8d99ae;
+    text-align: justify;
+    border-radius: 6px;
+}
+.card img{
+    width:100%;
+    border-radius: 6px;
+}
+.cardp{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+    line-height: 1.5;
+    font-family: RobotoMono;
+}
+.morebtn{
+    align-self: center;
+    padding: 10px;
+    background:red;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: #26272B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+}
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.footheading{
+    color: white;
+    font-family: sans-serif;
+}
+#footinfo{
+    flex:2;
+}
+#categories{
+    flex:1;
+}
+#quicklinks{
+    flex: 1;
+}
+#contact{
+    flex: 1;
+}
+.foottext{
+    color: #697479;
+    padding-left: 15px;
+    text-align: justify;
+    line-height: 2.0;
+    font-size: 15px;
+}
+#contact img{
+    width: 15px;
+    height: auto;
+    padding-top: 8px;
+}
+.contact-info{
+    display: flex;
+    align-items: start;
+}
+#register{
+    background: #26272B;
+    width: 100%;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#regtext{
+    font-size: 20px;
+}
+#signup{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-size: 18px;
+}
+#socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#socials img{
+    width: 50px;
+    height: auto;
+}
+hr {
+    border-color: #697479;
+}
+#bottom{
+    background:black;
+    width: 100%;
+    height: 50px;
+    margin-top: -20px;
+    color: #697479;
+    text-align: center;
+    padding-top: 20px;
+}

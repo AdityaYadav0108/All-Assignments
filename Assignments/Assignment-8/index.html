@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="t1.js"></script>
+    <script defer src="t2.js"></script>
+    <script defer src="t3.js"></script>
+    <script defer src="t4.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 style="font-size: 40px; text-decoration: underline;">Assigment-8</h1>
+        <div class="tasks" id="task1">
+            <div class="taskDesc">
+                <h2>Task-1:</h2>
+                <p style="margin-top: 5px;">Removing Extra White Spaces In Between The Strings.</p>
+            </div>
+            <form autocomplete="off" action="" class="inputForm" id="stringForm">
+                <fieldset>
+                    <legend><strong>String Input</strong></legend>
+                    <label for="t1Input">Enter The String:</label>
+                    <input type="text" name="" id="t1Input">
+                    <button id="submitBtn" onclick="removeSpace()">submit</button>
+                </fieldset>
+            </form>
+            <p id="t1Display" class="display"></p>
+        </div>
+        <div class="tasks" id="task2">
+            <div class="taskDesc">
+                <h2>Task-2:</h2>
+                <p style="margin-top: 5px;">Input an array and the array would  be copied into another using a for-each loop.</p>
+            </div>
+            <a href="" onclick="arraySize()" id="a1">Click Here To Begin</a>
+            <p class="display" id="t2display1"></p>
+            <p class="display" id="t2display2"></p>
+        </div>
+        <div class="tasks" id="task3">
+            <div class="taskDesc">
+                <h2>Task-3:</h2>
+                <p style="margin-top: 5px;">Input the marks of all the students and then input the threshold marks.</p>
+            </div>
+            <div id="studentForm">
+                <form autocomplete="off" action="" class="inputForm" onsubmit="getValue(event)">
+                    <fieldset>
+                        <legend><strong>Enter Details</strong></legend>
+                        <div class="labelDiv" id="studentNo">
+                            <label for="studentInput">Number of Students:</label>
+                            <input type="text" id="studentInput">
+                        </div>
+                        <div class="labelDiv" id="threshhold">
+                            <label for="minMarks">Minimum Marks:</label>
+                            <input type="text" id="minMarks">
+                        </div>
+                        <button id="submitBtn2" type="submit">submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <p class="display" id="t3display"></p>
+        </div>
+        
+        <div class="tasks" id="task4">
+            <div class="taskDesc">
+                <h2>Task-4:</h2>
+                <p style="margin-top: 5px;">Input a string which will then be sorted in descending order.</p>
+            </div>
+            <form autocomplete="off" action="" class="inputForm" id="stringForm2" onsubmit="sortString(event)">
+                <fieldset>
+                    <legend><strong>String Input</strong></legend>
+                    <label for="t4Input">Enter The String:</label>
+                    <input type="text" name="" id="t4Input">
+                    <button id="submitBtn3" type="submit">submit</button>
+                </fieldset>
+            </form>
+            <p class="display" id="t4display"></p>
+        </div>
+    </div>
+</body>
+</html>

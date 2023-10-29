@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="t1.js"></script>
+    <script defer src="t2.js"></script>
+    <script defer src="t3.js"></script> 
+    <script defer src="t4.js"></script>
+    <script defer src="t5.js"></script>
+    <title>
+      Document
+    </title>
+  </head>
+  
+  <body>
+    <div id="container">
+      <h1>
+        Assignment-10
+      </h1>
+      <div class="tasks" id="task1">
+        <div class="taskDesc">
+          <h2>
+            Task-1:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a program to use call and apply function:
+          </p>
+        </div>
+        <a href="" onclick="init()" id="a1">Click Here To View The Result</a>
+        <p id="t1display1" class="display"></p>
+        <p class="display" id="t1display2"></p>
+      </div>
+      <div class="tasks" id="task2">
+        <div class="taskDesc">
+          <h2>
+            Task-2:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Program to create an array having cube root of every element of another array.
+          </p>
+        </div>
+        <form action="" class="inputForm" id="inputForm2" onsubmit="init2()" autocomplete="off">
+          <fieldset>
+            <legend>
+              <strong>
+                Array Size
+              </strong>
+            </legend>
+            <label for="t2input">
+              Enter Here:
+            </label>
+            <input type="text" id="t2input" placeholder="Please enter a number">
+            <button type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p class="display" id="t2display"></p>
+      </div>
+      <div class="tasks" id="task3">
+        <div class="taskDesc">
+          <h2>
+            Task-3:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a program to call a function in an interval of 3 seconds for 5 times.
+          </p>
+        </div>
+        <form action="" class="inputForm" id="inputForm3" onsubmit="init3()" autocomplete="off">
+          <fieldset>
+            <legend>
+              <strong>
+                Enter A Number  
+              </strong>
+            </legend>
+            <label for="t3input">
+              Enter Here:
+            </label>
+            <input type="text" id="t3input" placeholder="Please enter a number">
+            <button id="submitBtn3" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p class="display" id="t3display"></p>
+     </div>
+      <div class="tasks" id="task4">
+        <div class="taskDesc">
+          <h2>
+            Task-4:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a program to iterate over an array of objects using map function. <br><br>var people = [ <br>
+            { name: "Ashish", age: 23 }, <br>
+            { name: "Ajay", age: 21 },<br>
+            { name: "Arvind", age: 26 },<br>
+            { name: "Mahesh", age: 28 },<br>
+            { name: "Jay", age: 19 }<br>
+          ];
+          </p>
+        </div>
+        <form action="" class="inputForm" id="inputForm4" onsubmit="init4(event)" autocomplete="off">
+          <fieldset>
+              <legend><strong>Select Property</strong></legend>
+              <label for="t4input">Select:</label>
+              <input type="text" id="t4input" list="propList" placeholder="Please Select A Property">
+              <datalist id="propList">
+                <option value="name" ></option>
+                <option value="age"></option>
+              </datalist>
+              <button id="submitBtn4" type="submit">submit</button>
+          </fieldset>
+        </form>
+        <p id="t4display" class="display"></p>
+      </div>
+      <div class="tasks">
+        <div class="taskDesc">
+          <h2>
+            Task-5:
+          </h2>
+          <p style="margin-top: 4px; font-size: 18px;">
+            Write a Program to Filter out people whose age is less than 25 in descending order.<br><br>var people = [ <br>
+            { name: "Ashish", age: 23 }, <br>
+            { name: "Ajay", age: 21 },<br>
+            { name: "Arvind", age: 26 },<br>
+            { name: "Mahesh", age: 28 },<br>
+            { name: "Jay", age: 19 }<br>
+          ];
+          </p>
+        </div>
+        <a href="" onclick="init5()" id="a2">Click Here To View The Result</a>
+        <p id="t5display" class="display"></p>
+      </div>
+    </div>
+  </body>
+
+</html>

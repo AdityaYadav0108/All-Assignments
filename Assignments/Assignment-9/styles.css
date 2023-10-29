@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+body{
+    background: #f1dede;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;;
+}
+
+.tasks{
+    width: 60%;
+    background: #d496a7;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+.taskDesc{
+    display: flex;
+    gap: 10px;
+}
+
+.inputForm{
+    width: 60%;
+    align-self: center;
+}
+.display{
+    text-align: center;
+    width: 50%;
+    align-self: center;
+    font-size: 0px;
+    border-radius: 7px;
+}
+fieldset{
+    background: #6cd4ff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    border: none;
+}
+legend{
+    background-color: #6cd4ff;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+h1{
+    margin: 20px 0px 0px 0px;
+}
+h2{
+    width: 15%;
+}
+input{
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+label, input{
+    margin: 10px 15px 10px 15px;
+}
+
+.unvanish{
+    font-size: 25px;
+    padding: 15px 10px 15px 10px;
+}
+.bg{
+    background: #513E7D;
+    color: white;
+}
+
