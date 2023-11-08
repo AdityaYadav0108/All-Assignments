@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend id="l1"><strong>Contact Form</strong></legend>
+        
+    <p>
+        <label for="firstName"><strong>First Name:</strong></label>
+        <input type="text" name="firstName" id="firstName" placeholder="Insert Here" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="lastName"><strong>Last Name:</strong></label>
+        <input type="text" name="lastName" id="lastName" placeholder="Insert Here" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="Email"><strong>Email:</strong></label>
+        <input type="" name="Email" id="Email"  required>
+    </p>
+    <p>
+        <label for="rating"><strong>Give Us A Rating</strong></label>
+        <input type="number" name="rating" id="rating" min="1" max="10" step="1" value="1">
+    </p>
+    <p>
+        <label for="game"><strong>Where do you intend to use it? </strong></label>
+        <select name="game" id="game" style="margin-left: 10px;">
+            <option value="home" selected>At Home</option>
+            <option value="office">At Office</option>
+            <option value="shop">Shop</option>
+            <option value="others">Others</option>
+        </select>
+    </p>
+    <div id="timediv">
+        <div id="legend">
+            <legend><strong>When Can We Contact You?</strong></legend>
+        </div>
+        
+        <div id="options">
+            <p>
+                <input value="morning" type="radio" id="morning" name="morning">
+                <label for="morning">Morning</label>
+            </p>
+            
+            <p>
+                <input value="afternoon" type="radio" id="afternoon" name="afternoon">
+                <label for="afternoon">Afternoon</label>
+            </p>
+            
+            <p>
+                <input value="evening" type="radio" id="evening" name="evening">
+                <label for="evening">Evening</label>
+            </p>
+        </div>
+    </div>
+
+        <legend><strong>What emotions did you feel out of the following &LeftAngleBracket; Select All That Apply &RightAngleBracket;</strong></legend>
+        <p>
+            <input type="checkbox" name="" id="excited">
+            <label for="excited">Excited</label>
+        </p>
+        <p>
+            <input type="checkbox" name="" id="humbled">
+            <label for="humbled">Humbled</label>
+        </p>
+        <p>
+            <input type="checkbox" name="" id="elated">
+            <label for="elated">Elated</label>
+        </p>
+    
+        <p>
+            <input type="checkbox" name="" id="loved">
+            <label for="h2">Loved</label>
+        </p>
+        <p>
+            <input type="checkbox" name="" id="enthusiatic">
+            <label for="eldenring">Enthusiatic</label>
+        </p>
+
+        <label for="feedback"><strong>Give Us A Feedback:</strong></label>
+        <br>
+        <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        <p><button type="submit">Submit</button></p>
+</fieldset>
+
+    
+        
+    
+</form>
+</body>
+</html>

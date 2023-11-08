@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;font-family: serif;
+}
+body{
+    background: azure;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#loader{
+    
+    width: 50px;
+    height: 50px;
+    border: 10px solid lightgrey;
+    border-bottom: 10px solid green;
+    border-radius: 50%;
+    animation: spin linear 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    position:absolute;
+    top: 10px;
+}
+#internet{
+    /* visibility: hidden; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+}
+#internetStatus{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#initButton{
+    width: 90%;
+    padding: 30px 0px 30px 0px;
+    font-size: 20px;
+    border-radius: 7px;
+    transition: background .5s linear;
+}
+#initButton:hover{
+    background: lightcyan;
+    cursor:pointer;
+}

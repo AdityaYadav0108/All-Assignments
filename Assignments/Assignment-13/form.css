@@ -1,0 +1,17 @@
+#timediv{
+    display: flex;
+    gap: 20px;
+}
+#legend{
+    margin-top: 15px;
+}
+input{
+    margin-left: 10px;
+}
+fieldset{
+    background-color: antiquewhite;
+}
+#l1{
+    margin-top: 0px;
+    font-size: 20px;
+}
