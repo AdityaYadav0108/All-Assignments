@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",() => {
     }
     setTimeout(() => {
         loader.style.display = "none";
-        loadingText.textContent = "Enjoy... :D"
+        loadingText.textContent = "Please Make Sure You Enable Pop-ups For This Page, Enjoy... :D"
         window.open('form.html', 'Popup', 'height=850, width=700, screenX=500, screenY=500')
     }, 10000);
 })
