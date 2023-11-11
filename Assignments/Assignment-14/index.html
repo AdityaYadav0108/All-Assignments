@@ -13,29 +13,37 @@
             <h2>Covid Cases</h2>
             <div class="item">
                 <label class="itemLabel" for="">Country Name:</label>
-                <select class="itemData" id="countrySelect">India</select>
+                <select class="itemData" id="countrySelect">
+                    <option value=""></option>
+                </select>
+                <button id="countryBtn" onclick="setData()">Submit</button>
             </div>
             <div class="item">
-                <label class="itemLabel" for="country">Date:</label>
-                <span class="itemData" id="country">Wed 24th Aug 2023</span>
+                <label class="itemLabel" for="date">Date:</label>
+                <span class="itemData" id="date"></span>
             </div>
             <div class="item">
                 <label class="itemLabel" for="totalCases">Total Cases:</label>
-                <span class="itemData" id="totalCases">44357546</span>
+                <span class="itemData" id="totalCases">NA</span>
             </div>
             <div class="item">
-                <label class="itemLabel" for="totalDeaths">Total Deaths: 527416</label>
-                <span class="itemData" id="totalDeaths"></span>
+                <label class="itemLabel" for="totalDeaths">Total Deaths:</label>
+                <span class="itemData" id="totalDeaths">NA</span>
             </div>
             <div class="item">
-                <label class="itemLabel" for="newCases">New Cases:</label>
-                <span class="itemData" id="newCases">8586</span>
+                <label class="itemLabel" for="active">Active Cases:</label>
+                <span class="itemData" id="active">NA</span>
             </div>
             <div class="item">
-                <label class="itemLabel" for="newDeaths">New Deaths:</label>
-                <span class="itemData" id="newDeaths">48</span>
+                <label class="itemLabel" for="recovered">Recovered:</label>
+                <span class="itemData" id="recovered">NA</span>
+            </div>
+            <div class="item">
+                <label class="itemLabel" for="population">Population:</label>
+                <span class="itemData" id="population">NA</span>
             </div>
         </div>
+        <p id="errorDisplay"></p>
     </div>
 </body>
 </html>
