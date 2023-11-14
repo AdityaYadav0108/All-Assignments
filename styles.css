@@ -19,11 +19,12 @@ h1{
     font-size: 40px;
 }
 #tableDiv{
-    width: 60%;
+    width: 65%;
 }
 table{
     background: #bfc8ad;
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 .desc{
     width: 70%;
